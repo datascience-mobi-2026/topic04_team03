@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 Jupyter_Lotta.ipynb filter=lfs diff=lfs merge=lfs -text
+=======
+*.ipynb filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 38655f733ab2165398f2f477e58dcceb0c26fccc
 *.ipynb !text !filter !merge !diff
