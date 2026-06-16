@@ -513,6 +513,8 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
 name = "llvmlite"
 version = "0.47.0"
 source = { registry = "https://pypi.org/simple" }
@@ -533,6 +535,7 @@ wheels = [
 ]
 
 [[package]]
+>>>>>>> 38655f733ab2165398f2f477e58dcceb0c26fccc
 name = "matplotlib"
 version = "3.10.9"
 source = { registry = "https://pypi.org/simple" }
@@ -601,6 +604,8 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
 name = "numba"
 version = "0.65.1"
 source = { registry = "https://pypi.org/simple" }
@@ -625,6 +630,7 @@ wheels = [
 ]
 
 [[package]]
+>>>>>>> 38655f733ab2165398f2f477e58dcceb0c26fccc
 name = "numpy"
 version = "2.4.4"
 source = { registry = "https://pypi.org/simple" }
@@ -925,6 +931,8 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
 name = "pynndescent"
 version = "0.6.0"
 source = { registry = "https://pypi.org/simple" }
@@ -941,6 +949,7 @@ wheels = [
 ]
 
 [[package]]
+>>>>>>> 38655f733ab2165398f2f477e58dcceb0c26fccc
 name = "pyparsing"
 version = "3.3.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1195,7 +1204,10 @@ dependencies = [
     { name = "scikit-learn" },
     { name = "seaborn" },
     { name = "statsmodels" },
+<<<<<<< HEAD
+=======
     { name = "umap-learn" },
+>>>>>>> 38655f733ab2165398f2f477e58dcceb0c26fccc
 ]
 
 [package.metadata]
@@ -1209,7 +1221,10 @@ requires-dist = [
     { name = "scikit-learn", specifier = ">=1.8.0" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "statsmodels", specifier = ">=0.14.6" },
+<<<<<<< HEAD
+=======
     { name = "umap-learn", specifier = ">=0.5.4" },
+>>>>>>> 38655f733ab2165398f2f477e58dcceb0c26fccc
 ]
 
 [[package]]
@@ -1230,6 +1245,8 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
 name = "tqdm"
 version = "4.68.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1242,6 +1259,7 @@ wheels = [
 ]
 
 [[package]]
+>>>>>>> 38655f733ab2165398f2f477e58dcceb0c26fccc
 name = "traitlets"
 version = "5.15.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1260,6 +1278,8 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
 name = "umap-learn"
 version = "0.5.12"
 source = { registry = "https://pypi.org/simple" }
@@ -1277,6 +1297,7 @@ wheels = [
 ]
 
 [[package]]
+>>>>>>> 38655f733ab2165398f2f477e58dcceb0c26fccc
 name = "urllib3"
 version = "2.7.0"
 source = { registry = "https://pypi.org/simple" }

@@ -14,5 +14,8 @@ dependencies = [
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
     "statsmodels>=0.14.6",
+<<<<<<< HEAD
+=======
     "umap-learn>=0.5.4",
+>>>>>>> 38655f733ab2165398f2f477e58dcceb0c26fccc
 ]
