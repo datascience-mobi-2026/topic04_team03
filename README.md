@@ -48,21 +48,34 @@ Enhancer OCRs show sharper distinctions between differentiated immune cell types
 <div style="text-align: center">
   <img src="plots_for_poster/enhancer_promoter ATAC heatmap all cells.png" alt="A: Matrice of Pearson correlation between cell types, based on ATAC signal intensity at promoter OCRs.
 B: Matrice of Pearson correlation between cell types, based on ATAC signal intensity at distal enhancer OCRs." width="60%" />
-  <p><b>Fig. 4.</b> A: Matrice of Pearson correlation between cell types, based on ATAC signal intensity at promoter OCRs.
-B: Matrice of Pearson correlation between cell types, based on ATAC signal intensity at distal enhancer OCRs.</p>
+  <p><b>Fig. 4.</b> <b>A:</b> Matrice of Pearson correlation between cell types, based on ATAC signal intensity at promoter OCRs.
+<b>B:</b> Matrice of Pearson correlation between cell types, based on ATAC signal intensity at distal enhancer OCRs.</p>
 </div>
 
 Promoter OCRs show higher mean chromatin accessibility, while enhancer OCRs exhibit greater signal variability. This supports a model, where promoters provide accessibility and enhancers drive specificity.  
+
 <div style="text-align: center">
   <img src="plots_for_poster/Boxplot CV Enhancer_promoter all cells.png" alt="Comparison of mean chromatin accessibility and signal variability between promoter and enhancer OCRs across all 90 immune cell types." width="60%" />
-  <p><b>Fig. 3.</b> Comparison of mean chromatin accessibility and signal variability between promoter and enhancer OCRs across all 90 immune cell types.</p>
+  <p><b>Fig. 5.</b> Comparison of mean chromatin accessibility and signal variability between promoter and enhancer OCRs across all 90 immune cell types.</p>
 </div>
 
 ### 2. γδ T-cells cluster by differentiation stage (ATAC-seq and RNA-seq data)
 With both data sets, the clustering closely resembles the cell lineage. Cell types of similar differentiation stages tend to cluster together, rather than differentiated cells with their progenitors. IL17-producing γδ T-cells have quite little correlation with related cell types in both their ATAC and RNA signals. The ATAC signal shows a more gradual change, whereas the RNA signal shows a harsh difference between cell groups, especially between γδ T-cells and Tab progenitors.
 
+<div style="text-align: center">
+  <img src="plots_for_poster/hierarchical clustering of genes based on expression profile (highest gini genes).png" alt="A: Matrix of Pearson correlation between cell types, based on ATAC-seq signal intensity and hierarchical clustering of cell types." width="45%" style="vertical-align: middle; margin-right: 10px; />
+  <img src="plots_for_poster/hierarchical clustering of genes based on expression profile (highest gini genes and only Tgd cells). png" alt="B: Matrix of Pearson correlation between cell types, based on RNA-seq signal intensity and hierarchical clustering of cell types." width="45%" style="vertical-align: middle;"/>
+  <p><b>Fig. 6.</b> <b>A:</b> Matrix of Pearson correlation between cell types, based on ATAC-seq signal intensity
+ and hierarchical clustering of cell types. <b>B:</b> Matrix of Pearson correlation between cell types, based on RNA-seq signal intensity and hierarchical clustering of cell types.</p>
+</div>
+
 ### 3. Cell type specific genes cluster together in hierarchical clustering
 Using the Gini score, genes specifically expressed in certain cell types were identified. Many cell type-specific genes are predominantly expressed in myeloid cell types. Distinct gene clusters are visible for B cells, ILCs, NK cells, and stem cells, whereas Tgd cells do not show such clustering. Treg cells exhibit a highly specific gene set. In our cell lineage, large clusters of specific genes are visible for stem cells and IL17-producing γδ T-cells. Characteristic genes were also determined for the cell groups. For γδ T-cells, eight specific genes were identified and used in further analysis.
+
+<div style="text-align: center">
+  <img src="plots_for_poster/Boxplot CV Enhancer_promoter all cells.png" alt="Comparison of mean chromatin accessibility and signal variability between promoter and enhancer OCRs across all 90 immune cell types." width="60%" />
+  <p><b>Fig. 7.</b> Comparison of mean chromatin accessibility and signal variability between promoter and enhancer OCRs across all 90 immune cell types.</p>
+</div>
 
 ### 4. Ridge regression links ATAC-seq peaks to γδ T‑cell lineage‑specific gene expression
 A ridge regression model was built to predict gene expression from ATACseq peaks. Because few peaks are strongly associated with Il17f and the variance is low, the model tends to overfit, so it is useful only for comparative evaluation of Il17f, not precise prediction. A second ridge model was trained specifically on γδ T-cell development and compared with the all-cell-type model to identify lineage-specific CREs by comparing regression coefficients and selecting the top peaks for different genes.
