@@ -2,7 +2,7 @@
 ## Overview
 
 - [Research Questions and Methods](#research-questions-and-methods)
-- [Psoriasis: Il17 driven inflammation](#psoriasis-il17-driven-inflammation)
+    - [Psoriasis: IL17 driven inflammation](#psoriasis-il17-driven-inflammation)
 - [Results](#results)
     1. [Enhancers show more variability across cell types than promotors](#1-enhancers-show-more-variability-across-cell-types-than-promotors)
     2. [γδ T-cells cluster by differentiation stage (ATAC-seq and RNA-seq data)](#2-γδ-t-cells-cluster-by-differentiation-stage-atac-seq-and-rna-seq-data)
@@ -29,7 +29,18 @@ We investigated how the chromatin landscape changes during γδ T-cell different
   <p><b>Fig. 2.</b> Overview of the ATAC-seq and RNA-seq Datasets: Chromatin accessibility and gene expression were profiled across 86 mouse immune cell types.</p>
 </div>
 
-## Psoriasis: Il17 driven inflammation
+---
+
+### Psoriasis: IL17 driven inflammation
+
+Psoriasis is one of the most widespread autoimmune inflammatory skin diseases (Man et al, 2023). It is characterized by increased proliferation of keratinocytes, resulting in impaired maturation and loss of function. Chronic inflammation leads to the constant release of proinflammatory cytokines like IL17, because of misregulated immune cells. In affected skin, γδ T-cells are increased and are potent producers of IL17 (Veras et al, 2022).
+The focus is on IL17f, the member of the IL17 family that is predominantly expressed by IL17 producing γδ T-cells. We asked, how the Il17f expression is regulated in immune cell populations through cis-regulatory elements at the gene locus and which open chromatin regions may contribute to γδ T-cell specific regulation.
+
+<div style="text-align: center">
+  <img src="plots_for_poster/table_Il17_expr.png" alt="Il17 expression in different cell types" width="60%" />
+  <p><b>Fig. 3.</b> Il17 expression in different cell types.</p>
+</div>
+
 ## Results
 ### 1. Enhancers show more variability across cell types than promotors
 ### 2. γδ T-cells cluster by differentiation stage (ATAC-seq and RNA-seq data)
