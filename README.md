@@ -26,7 +26,7 @@ We investigated how the chromatin landscape changes during γδ T-cell different
 
 <div style="text-align: center">
   <img src="plots_for_poster/Methodes Figure.png" alt="Overview of the ATAC-seq and RNA-seq Datasets: Chromatin accessibility and gene expression were profiled across 86 mouse immune cell types" width="60%" />
-  <p><b>Fig. 1.</b> Overview of the ATAC-seq and RNA-seq Datasets: Chromatin accessibility and gene expression were profiled across 86 mouse immune cell types.</p>
+  <p><b>Fig. 2.</b> Overview of the ATAC-seq and RNA-seq Datasets: Chromatin accessibility and gene expression were profiled across 86 mouse immune cell types.</p>
 </div>
 
 ## Psoriasis: Il17 driven inflammation
