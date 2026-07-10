@@ -31,9 +31,8 @@ We investigated how the chromatin landscape changes during γδ T-cell different
 
 ---
 ### Psoriasis: IL17 driven inflammation
-<div style="background-color:#f5f5f5; padding:10px; border-radius:4px;">
 Psoriasis is one of the most widespread autoimmune inflammatory skin diseases (Man et al, 2023). It is characterized by increased proliferation of keratinocytes, resulting in impaired maturation and loss of function. Chronic inflammation leads to the constant release of proinflammatory cytokines like IL17, because of misregulated immune cells. In affected skin, γδ T-cells are increased and are potent producers of IL17 (Veras et al, 2022).
-The focus is on IL17f, the member of the IL17 family that is predominantly expressed by IL17 producing γδ T-cells. We asked, how the Il17f expression is regulated in immune cell populations through cis-regulatory elements at the gene locus and which open chromatin regions may contribute to γδ T-cell specific regulation.</div>
+The focus is on IL17f, the member of the IL17 family that is predominantly expressed by IL17 producing γδ T-cells. We asked, how the Il17f expression is regulated in immune cell populations through cis-regulatory elements at the gene locus and which open chromatin regions may contribute to γδ T-cell specific regulation.
 
 <div style="text-align: center">
   <img src="plots_for_poster/table_Il17_expr.png" alt="Il17 expression in different cell types" width="60%" />
