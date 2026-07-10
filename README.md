@@ -63,9 +63,9 @@ Promoter OCRs show higher mean chromatin accessibility, while enhancer OCRs exhi
 With both data sets, the clustering closely resembles the cell lineage. Cell types of similar differentiation stages tend to cluster together, rather than differentiated cells with their progenitors. IL17-producing γδ T-cells have quite little correlation with related cell types in both their ATAC and RNA signals. The ATAC signal shows a more gradual change, whereas the RNA signal shows a harsh difference between cell groups, especially between γδ T-cells and Tab progenitors.
 
 <div style="text-align: center">
-  <img src="plots_for_poster/hierarchical clustering of genes based on expression profile (highest gini genes).png" alt="A: Matrix of Pearson correlation between cell types, based on ATAC-seq signal intensity and hierarchical clustering of cell types." width="45%" style="vertical-align: middle; margin-right: 10px;" />
-  <img src="plots_for_poster/hierarchical clustering of genes based on expression profile (highest gini genes and only Tgd cells).png" alt="B: Matrix of Pearson correlation between cell types, based on RNA-seq signal intensity and hierarchical clustering of cell types." width="45%" style="vertical-align: middle;"/>
-  <p><b>Fig. 6.</b> <b>A:</b> Matrix of Pearson correlation between cell types, based on ATAC-seq signal intensity
+  <img src="plots_for_poster/Pearson correlation clustermap of ATAC-seq cell types (average linkage).png" alt="A: Matrix of Pearson correlation between cell types, based on ATAC-seq signal intensity and hierarchical clustering of cell types" height="350px" width="45%" style="vertical-align: middle; margin-right: 10px;" />
+  <img src="plots_for_poster/Pearson correlation clustering of RNA-seq cell types (average linkage).png" alt="B: Matrix of Pearson correlation between cell types, based on RNA-seq signal intensity and hierarchical clustering of cell types" height="350px" width="45%" style="vertical-align: middle;"/>
+  <p><b>Fig. 6.</b> <b>A:</b>Matrix of Pearson correlation between cell types, based on ATAC-seq signal intensity
  and hierarchical clustering of cell types. <b>B:</b> Matrix of Pearson correlation between cell types, based on RNA-seq signal intensity and hierarchical clustering of cell types.</p>
 </div>
 
@@ -73,8 +73,10 @@ With both data sets, the clustering closely resembles the cell lineage. Cell typ
 Using the Gini score, genes specifically expressed in certain cell types were identified. Many cell type-specific genes are predominantly expressed in myeloid cell types. Distinct gene clusters are visible for B cells, ILCs, NK cells, and stem cells, whereas Tgd cells do not show such clustering. Treg cells exhibit a highly specific gene set. In our cell lineage, large clusters of specific genes are visible for stem cells and IL17-producing γδ T-cells. Characteristic genes were also determined for the cell groups. For γδ T-cells, eight specific genes were identified and used in further analysis.
 
 <div style="text-align: center">
-  <img src="plots_for_poster/Boxplot CV Enhancer_promoter all cells.png" alt="Comparison of mean chromatin accessibility and signal variability between promoter and enhancer OCRs across all 90 immune cell types." width="60%" />
-  <p><b>Fig. 7.</b> Comparison of mean chromatin accessibility and signal variability between promoter and enhancer OCRs across all 90 immune cell types.</p>
+  <img src="plots_for_poster/hierarchical clustering of genes based on expression profile (highest gini genes).png" alt="A: Matrix of Pearson correlation between cell types, based on ATAC-seq signal intensity and hierarchical clustering of cell types." height="350px" width="45%" style="vertical-align: middle; margin-right: 10px;" />
+  <img src="plots_for_poster/hierarchical clustering of genes based on expression profile (highest gini genes and only Tgd cells).png" alt="B: Matrix of Pearson correlation between cell types, based on RNA-seq signal intensity and hierarchical clustering of cell types." height="350px" width="45%" style="vertical-align: middle;"/>
+  <p><b>Fig. 6.</b> <b>A:</b> Matrix of Pearson correlation between cell types, based on ATAC-seq signal intensity
+ and hierarchical clustering of cell types. <b>B:</b> Matrix of Pearson correlation between cell types, based on RNA-seq signal intensity and hierarchical clustering of cell types.</p>
 </div>
 
 ### 4. Ridge regression links ATAC-seq peaks to γδ T‑cell lineage‑specific gene expression
