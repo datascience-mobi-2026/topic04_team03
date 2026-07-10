@@ -83,14 +83,14 @@ A ridge regression model was built to predict gene expression from ATACseq peaks
 Rorc, selected among genes with the highest Gini in γδ T-cells, shows a broad pattern, playing a bigger role in late γδ T-cell differentiation rather than a single subset.
 
 <div style="text-align: center">
-  <img src="plots_for_poster/top_peaks_ATAC_RNA_Rorc.png" alt="Regression coefficients of the top OCRs associated with Rorc expression in γδ T-cells." width="60%" />
+  <img src="plots_for_poster/top_peaks_ATAC_RNA_Rorc.png" alt="Regression coefficients of the top OCRs associated with Rorc expression in γδ T-cells." width="45%" />
   <p><b>Fig. 8.</b> Regression coefficients of the top OCRs associated with Rorc expression in γδ T-cells.</p>
 </div>
 
 For Il17f, the top peaks shown in the plot are top candidate CREs associated with Il17f expression. They show accessibility almost entirely restricted to Tgd.g2+d17.LN, the same subset with detectable Il17f expression. This points to Tgd.g2+d17 specific CREs, but is also limited by the instability of the model.
 
 <div style="text-align: center">
-  <img src="plots_for_poster/top_peaks_ATAC_RNA_Il17f.png" alt="Regression coefficients of the top OCRs associated with IL17f expression in γδ T-cells." width="60%" />
+  <img src="plots_for_poster/top_peaks_ATAC_RNA_Il17f.png" alt="Regression coefficients of the top OCRs associated with IL17f expression in γδ T-cells." width="45%" />
   <p><b>Fig. 9.</b> Regression coefficients of the top OCRs associated with IL17f expression in γδ T-cells.</p>
 </div>
 
@@ -98,14 +98,14 @@ For Il17f, the top peaks shown in the plot are top candidate CREs associated wit
 To link OCRs to their target genes, ATAC-seq accessibility and RNA-seq expression were correlated for all OCR-gene pairs within a 100 kb genomic window across γδ T cell types. Of the tested pairs, 9,776 passed FDR correction. Correlated OCRs are densely clustered near the transcription start site, indicating that chromatin accessibility at regulatory elements is tightly coupled to gene expression.
 
 <div style="text-align: center">
-  <img src="plots_for_poster/single Barplot DIstance of correlated OCRs to TSS.png" alt="Distribution of correlated OCRs relative to TSS." width="60%" />
+  <img src="plots_for_poster/single Barplot DIstance of correlated OCRs to TSS.png" alt="Distribution of correlated OCRs relative to TSS." width="45%" />
   <p><b>Fig. 10.</b> Distribution of correlated OCRs relative to TSS.</p>
 </div>
 
 Applying the correlation approach to the Il17f locus, a key cytokine in psoriatic inflammation, shows strong correlation between local chromatin accessibility and Il17f expression. γδ T-cells and ILC-cells display elevated OCR accessibility and expression, while other immune lineages remain low (r = 0.730, FDR < 0.05).
 
 <div style="text-align: center">
-  <img src="plots_for_poster/scatterplot IL17f- OCR accessibility vs gene expression.png" alt="Chromatin accessibilty versus IL17f expression." width="60%" />
+  <img src="plots_for_poster/scatterplot IL17f- OCR accessibility vs gene expression.png" alt="Chromatin accessibilty versus IL17f expression." width="45%" />
   <p><b>Fig. 11.</b> Chromatin accessibilty versus IL17f expression.</p>
 </div>
 
