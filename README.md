@@ -1,7 +1,7 @@
 # Characterization of the chromatin landscape surrounding the Il17f gene locus in γδ T-cells
 ## Research Questions and Methods
 
-![Cell lineage of γδ T-cells from stem cells (grey) over αβ progenitor T-cells to fully differentiated cell types (Yoshida et al, 2019).](plots_for_poster/cell%20lineage.png)
+![Cell lineage of γδ T-cells from stem cells (grey) over αβ progenitor T-cells to fully differentiated cell types (Yoshida et al, 2019).](plots_for_poster/cell%20lineage.jpg)
 
 ## Psoriasis: Il17 driven inflammation
 ## Results
