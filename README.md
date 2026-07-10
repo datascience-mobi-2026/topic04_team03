@@ -16,7 +16,7 @@
 
 ## Research Questions and Methods
 
-Genome-wide association studies have shown that many genetic variants linked to autoimmune disease lie in non-coding regions of the genome, making it difficult to investigate how they influence gene regulation and cell identity [Calderon et al. 2019](#references). To address this, our project combines ATAC-seq and RNA-seq data from the mouse immune system atlas of Yoshida et al., to examine how chromatin accessibility and gene expression relate to each other in  γδ T-cell lineages. ATAC-seq captures open chromatin regions that may act as promoters or enhancers, while RNA-seq measures gene expression but does not reveal the upstream regulatory mechanisms driving it.
+Genome-wide association studies have shown that many genetic variants linked to autoimmune disease lie in non-coding regions of the genome, making it difficult to investigate how they influence gene regulation and cell identity ([Calderon et al. 2019](#references)). To address this, our project combines ATAC-seq and RNA-seq data from the mouse immune system atlas of Yoshida et al., to examine how chromatin accessibility and gene expression relate to each other in  γδ T-cell lineages. ATAC-seq captures open chromatin regions that may act as promoters or enhancers, while RNA-seq measures gene expression but does not reveal the upstream regulatory mechanisms driving it.
 We investigated how the chromatin landscape changes during γδ T-cell differentiation regulating the expression of cell type specific genes and establishing cell identity. Therefore 13 different cell types from stem cells to fully differentiated were analysed. 
 
 <div style="text-align: center">
@@ -31,7 +31,7 @@ We investigated how the chromatin landscape changes during γδ T-cell different
 
 ---
 ### Psoriasis: IL17 driven inflammation
-Psoriasis is one of the most widespread autoimmune inflammatory skin diseases [Man et al, 2023](#references). It is characterized by increased proliferation of keratinocytes, resulting in impaired maturation and loss of function. Chronic inflammation leads to the constant release of proinflammatory cytokines like IL17, because of misregulated immune cells. In affected skin, γδ T-cells are increased and are potent producers of IL17 [Veras et al, 2022](#references).
+Psoriasis is one of the most widespread autoimmune inflammatory skin diseases ([Man et al, 2023](#references)). It is characterized by increased proliferation of keratinocytes, resulting in impaired maturation and loss of function. Chronic inflammation leads to the constant release of proinflammatory cytokines like IL17, because of misregulated immune cells. In affected skin, γδ T-cells are increased and are potent producers of IL17 ([Veras et al, 2022](#references)).
 The focus is on IL17f, the member of the IL17 family that is predominantly expressed by IL17 producing γδ T-cells. We asked, how the Il17f expression is regulated in immune cell populations through cis-regulatory elements at the gene locus and which open chromatin regions may contribute to γδ T-cell specific regulation.
 
 <div style="text-align: center">
