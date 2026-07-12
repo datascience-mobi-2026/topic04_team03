@@ -80,7 +80,7 @@ Using the Gini score, genes specifically expressed in certain cell types were id
 ### 4. Ridge regression links ATAC-seq peaks to γδ T‑cell lineage‑specific gene expression
 A ridge regression model was built to predict gene expression from ATACseq peaks. Because few peaks are strongly associated with Il17f and the variance is low, the model tends to overfit, so it is useful only for comparative evaluation of Il17f, not precise prediction. A second ridge model was trained specifically on γδ T-cell development and compared with the all-cell-type model to identify lineage-specific CREs by comparing regression coefficients and selecting the top peaks for different genes.
 
-Rorc, selected among genes with the highest Gini in γδ T-cells, shows a broad pattern, playing a bigger role in late γδ T-cell differentiation rather than a single subset.
+Rorc, selected for its high Gini coefficient in γδ T-cells, shows a broad regulatory pattern. Rather than being restricted to a single early subset, it plays a role in late γδ T-cell differentiation. Both chromatin accessibility and gene expression rise after the precursor T-cell stages, peaking in the mature Tgd.g2+d17.24a+.Th and Tgd.g2+d17.LN populations.
 
 <div style="text-align: center">
   <img src="plots_for_poster/top_peaks_ATAC_RNA_Rorc.png" alt="Regression coefficients of the top OCRs associated with Rorc expression in γδ T-cells." width="45%" />
