@@ -191,6 +191,6 @@ Il17f expression is <b>mainly driven by promotor and enhancer activity.</b>
 
 ## Additional Results
 
-- [Relationship between chromatin accessibility and the distance to the transcription start site](02_T_relation_ATACsignal_to_distance_from_TSS.ipynb)
-- [Clustering of cell types based on their chromatin landscape using PCA for dimensional reduction and k-means clustering](03_T_clustering_cell_types.ipynb)
-- [Identified genes being expressed in specific cell types or cell groups, which could be used as markers for cell type identification](04_T_gene_expression_patterns.ipynb)
+- [Relationship between chromatin accessibility and the distance to the transcription start site](04_relation_ATACsignal_to_distance_from_TSS.ipynb)
+- [Clustering of cell types based on their chromatin landscape using PCA for dimensional reduction and k-means clustering](06_clustering_cell_types.ipynb)
+- [Identified genes being expressed in specific cell types or cell groups, which could be used as markers for cell type identification](07_gene_expression_patterns.ipynb)
