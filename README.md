@@ -190,3 +190,7 @@ Il17f expression is <b>mainly driven by promotor and enhancer activity.</b>
      Used for Python code refinement and language refinement in writing.
 
 ## Additional Results
+
+- [Relationship between chromatin accessibility and the distance to the transcription start site](04_relation_ATACsignal_to_distance_from_TSS.ipynb)
+- [Clustering of cell types based on their chromatin landscape using PCA for dimensional reduction and k-means clustering](06_clustering_cell_types.ipynb)
+- [Identified genes being expressed in specific cell types or cell groups, which could be used as markers for cell type identification](07_gene_expression_patterns.ipynb)
