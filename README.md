@@ -214,3 +214,5 @@ Il17f expression is <b>mainly driven by promotor and enhancer activity.</b>
 
 
 
+These datasets should be put into a folder named data to be able to run the code.
+
