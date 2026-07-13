@@ -190,9 +190,11 @@ Il17f expression is <b>mainly driven by promotor and enhancer activity.</b>
      Used for Python code refinement and language refinement in writing.
 
 ## Additional Results
-
+- [ATACseq Quality Control: Dataset Exploration](03_Exploration_of_ATACseq_QC_Data.ipynb)  
 - [Relationship between chromatin accessibility and the distance to the transcription start site](05_Relation%20ATAC%20signal%20to%20distance%20from%20TSS.ipynb)
+- [CRE Classification based on signal level and cross-cell variability](06_CRE_Classification.ipynb)  
 - [Clustering of cell types based on their chromatin landscape using PCA for dimensional reduction and k-means clustering](07_Clustering%20cell%20types.ipynb)
+- [CRE–Gene Association via Regression (Ridge Regression)](09_CRE_Gene_Association_via_Regression.ipynb) 
 - [Identified genes being expressed in specific cell types or cell groups, which could be used as markers for cell type identification](08_Gene%20expression%20patterns.ipynb)
 
 ## Datasets
