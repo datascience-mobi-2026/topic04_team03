@@ -205,5 +205,5 @@ Il17f expression is <b>mainly driven by promotor and enhancer activity.</b>
 | [Processed RNA-seq data](https://www.cell.com/cms/10.1016/j.cell.2018.12.036/attachment/4392da81-c56e-471a-b1df-0e72f03ecd77/mmc2.csv) | Gene expression profiles across immune cell types            |
 | [QC metrics for ATAC-seq samples](https://www.cell.com/cms/10.1016/j.cell.2018.12.036/attachment/e5df7329-d77d-40b3-a03a-34bdbe4b402c/mmc1.xlsx) | Summary of immune cell populations and sequencing QC statistics |
 | [Gene annotations (mm10)](http://hgdownload.cse.ucsc.edu/goldenPath/mm10/database/refFlat.txt.gz) | Transcript, coding, and exon start/end positions             |
-| [ChromVAR TF motif associations *(voluntary)*](https://sharehost.hms.harvard.edu/immgen/ImmGenATAC18_AllTFmotifsInOCRs.txt) | TF motif scores for all OCRs                                 |
+
 
