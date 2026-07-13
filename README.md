@@ -190,14 +190,17 @@ Il17f expression is <b>mainly driven by promotor and enhancer activity.</b>
      Used for Python code refinement and language refinement in writing.
 
 ## Additional Results
-- [ATACseq Quality Control: Dataset Exploration](03_Exploration_of_ATACseq_QC_Data.ipynb)  
+- [Analysis of promoter OCRs vs Enhancer OCRs](04_Enhancer%20vs%20Promoter%20analysis.ipynb)
 - [Relationship between chromatin accessibility and the distance to the transcription start site](05_Relation%20ATAC%20signal%20to%20distance%20from%20TSS.ipynb)
 - [CRE Classification based on signal level and cross-cell variability](06_CRE_Classification.ipynb)  
 - [Clustering of cell types based on their chromatin landscape using PCA for dimensional reduction and k-means clustering](07_Clustering%20cell%20types.ipynb)
-- [CRE–Gene Association via Regression (Ridge Regression)](10_CRE_Gene_Association_via_Regression.ipynb) 
 - [Identified genes being expressed in specific cell types or cell groups, which could be used as markers for cell type identification](08_Gene%20expression%20patterns.ipynb)
+- [Correlation Analysis of ATAC-signal & RNA-expression pairs (+ IL17f-focused analysis)](09_Correlation%20ATAC%20signal%20to%20RNA%20expression.ipynb)
+- [CRE–Gene Association via Regression (Ridge Regression)](10_CRE_Gene_Association_via_Regression.ipynb) 
 
 ## Datasets
+
+**Important:** <b> All the following datasets need to be downloaded and put into an folder called 'data' in order for the code to work normally!
 
 | Dataset                                                      | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -205,5 +208,9 @@ Il17f expression is <b>mainly driven by promotor and enhancer activity.</b>
 | [Processed RNA-seq data](https://www.cell.com/cms/10.1016/j.cell.2018.12.036/attachment/4392da81-c56e-471a-b1df-0e72f03ecd77/mmc2.csv) | Gene expression profiles across immune cell types            |
 | [QC metrics for ATAC-seq samples](https://www.cell.com/cms/10.1016/j.cell.2018.12.036/attachment/e5df7329-d77d-40b3-a03a-34bdbe4b402c/mmc1.xlsx) | Summary of immune cell populations and sequencing QC statistics |
 | [Gene annotations (mm10)](http://hgdownload.cse.ucsc.edu/goldenPath/mm10/database/refFlat.txt.gz) | Transcript, coding, and exon start/end positions             |
+| [Results of ATAC-seq-RNA-seq correlation (Tgd-cells)](https://heibox.uni-heidelberg.de/d/d7b99bbbb8e648c6948a/) | Correlation values r and p-values p of 933.715 ATAC-signal-RNA-expression pairs across Tgd-cells         |
+| [Results of ATAC-seq-RNA-seq correlation (all cells)](https://heibox.uni-heidelberg.de/d/d7b99bbbb8e648c6948a/) |Correlation values r and p-values p of 933.715 ATAC-signal-RNA-expression pairs across all celltypes             |
+
+
 
 
