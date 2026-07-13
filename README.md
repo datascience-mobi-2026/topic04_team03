@@ -212,7 +212,3 @@ Il17f expression is <b>mainly driven by promotor and enhancer activity.</b>
 | [Results of ATAC-seq-RNA-seq correlation (all cells)](https://heibox.uni-heidelberg.de/d/d7b99bbbb8e648c6948a/) |Correlation values r and p-values p of 933.715 ATAC-signal-RNA-expression pairs across all celltypes             |
 
 
-
-
-These datasets should be put into a folder named data to be able to run the code.
-
