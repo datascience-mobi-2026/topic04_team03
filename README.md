@@ -207,3 +207,5 @@ Il17f expression is <b>mainly driven by promotor and enhancer activity.</b>
 | [Gene annotations (mm10)](http://hgdownload.cse.ucsc.edu/goldenPath/mm10/database/refFlat.txt.gz) | Transcript, coding, and exon start/end positions             |
 
 
+These datasets should be put into a folder named data to be able to run the code.
+
