@@ -200,7 +200,7 @@ Il17f expression is <b>mainly driven by promotor and enhancer activity.</b>
 
 ## Datasets
 
-**Important:** <b> All the following datasets need to be downloaded and put into an folder called 'data' in order for the code to work normally!
+**Important:** <b> All the following datasets need to be downloaded and put into an folder called 'data' in order for the code to work normally! Additionally, the notebook 01_ATAC-seq data cleanup must be executed first!
 
 | Dataset                                                      | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
